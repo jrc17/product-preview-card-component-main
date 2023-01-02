@@ -83,12 +83,6 @@ button:focus {
   background-color: #326351;
 }
 
-.cart {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-}
 footer {
   font-size: 11px;
   text-align: center;
