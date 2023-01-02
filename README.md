@@ -38,33 +38,35 @@ Users should be able to:
 
 ### What I learned
 
-picture element
-@media - media queries
-mobile first workflow
+-picture element
+-@media - media queries
+-mobile first workflow
 
-html:
-<picture>
+-html:
 
-    <source
-              srcset="images\image-product-desktop.jpg"
-              media="(min-width:40rem)"
-              alt="Gabrielle Channel perfume bottle"
-            />
-    <img
-              src="images/image-product-mobile.jpg"
-              alt="Gabrielle Channel perfume bottle"
-              class="product-image"
-            />
-    </picture>
+  <picture>
 
-css:
+      <source
+                srcset="images\image-product-desktop.jpg"
+                media="(min-width:40rem)"
+                alt="Gabrielle Channel perfume bottle"
+              />
+      <img
+                src="images/image-product-mobile.jpg"
+                alt="Gabrielle Channel perfume bottle"
+                class="product-image"
+              />
+      </picture>
+
+-css:
+
 @media (min-width: 40rem) {
 main {
 max-width: 37rem;
 
-          grid-template-columns: repeat(2, 1fr);
+              grid-template-columns: repeat(2, 1fr);
 
-          gap: 0;
+              gap: 0;
 
 }
 .product-image {
