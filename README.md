@@ -38,13 +38,12 @@ Users should be able to:
 
 ### What I learned
 
--picture element
--@media - media queries
--mobile first workflow
+- picture element
+- @media - media queries
+- mobile first workflow
 
--html:
-
-  <picture>
+````html:
+<picture>
 
       <source
                 srcset="images\image-product-desktop.jpg"
@@ -57,16 +56,14 @@ Users should be able to:
                 class="product-image"
               />
       </picture>
-
--css:
-
+```
+```css:
 @media (min-width: 40rem) {
 main {
 max-width: 37rem;
 
-              grid-template-columns: repeat(2, 1fr);
-
-              gap: 0;
+grid-template-columns: repeat(2, 1fr);
+gap: 0;
 
 }
 .product-image {
@@ -85,7 +82,7 @@ padding-top: 1.5rem;
 margin-top: 0;
 }
 }
-
+```
 ### Useful resources
 
 -[Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU) - This video by Kevin Powell helped me better understand CSS grid, how to use media queries for this project, and how to approach mobile-first workflow.
@@ -93,3 +90,4 @@ margin-top: 0;
 ## Author
 
 - Frontend Mentor - [@jrc17](https://www.frontendmentor.io/profile/jrc17)
+````
